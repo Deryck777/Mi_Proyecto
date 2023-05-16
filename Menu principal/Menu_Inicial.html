@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
 
         <!--required meta tags-->
@@ -18,48 +18,52 @@
         <link rel="icon" href="Imagenes/coruscant.png">
         
         <title>Centro de la Galaxia</title>
+
     </head>
     <body>
-
         <!-- Cabecera Web -->
         <header style="background-color: black;">
-            <nav class="navbar navbar-expand-sm navbar-dark">
+            <nav class="navbar navbar-expand-sm  navbar-dark">
                 <div class="container-fluid">
+                    <!-- Logo -->
                     <a class="navbar-brand" href="#">
                         <img src="Imagenes/Star_Wars_Logo.png" alt="Logo" width="45" height="34" class="d-inline-block align-text-top">
-                        <h3 style="position: absolute; bottom: 10px; left: 60px; padding: -25%; color: yellow;">StarWears</h3>
+                        <a class="navbar-brand" href="#" style="color: yellow;">StarWears</a>
                     </a>
-                    <div class="collapse navbar-collapse" id="mynavbar" style="position: relative; left: 150px;" >
-                        <ul class="nav nav-tabs">
+                    <!-- Boton hamburguesa -->
+                    <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                    <!-- paginas -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar" style="position: relative; left: 45px;">
+                        <ul class="nav  nav-tabs">
                             <li class="nav-item">
-                                <h4 class="nav-link " href="javascript:void(0)" style="color: white;">Link</h4>
+                                <a class="nav-link" href="#" style="color: white;" >Link</a>
                             </li>
                             <li class="nav-item">
-                                <h4 class="nav-link" href="javascript:void(0)" style="color: white;">Link</h4>
+                                <a class="nav-link" href="#" style="color: white;" >Link</a>
                             </li>
                             <li class="nav-item">
-                                <h4 class="nav-link" href="javascript:void(0)" style="color: white;">Link</h4>
-                            </li>
+                                <a class="nav-link" href="#" style="color: white;" >Link</a>
+                            </li>    
                         </ul>
                     </div>
-
+                    <!-- DropDown -->
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown button
+                          Cuentas
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Entrar</a></li>
+                          <li><a class="dropdown-item" href="#">Registrarse</a></li>
                         </ul>
                     </div> 
                 </div>
             </nav>
         </header>
+        <!-- Centro de la pagina -->
 
 
-
-    
 
         <!-- Barra baja de pagina -->
         <footer class=" text-center text-white " style="background-color: rgba(161, 161, 161, 0.781);" >
