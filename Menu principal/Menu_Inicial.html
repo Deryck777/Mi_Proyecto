@@ -8,8 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
         <!-- Hojas estilo CSS -->
         <link rel="stylesheet" href="Menu.css">
         
@@ -19,17 +20,46 @@
         <title>Centro de la Galaxia</title>
     </head>
     <body>
+
         <!-- Cabecera Web -->
         <header style="background-color: black;">
-            <nav class="navbar bg-body-tertiary">
+            <nav class="navbar navbar-expand-sm navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="Imagenes/Star_Wars_Logo.png" alt="Logo" width="45" height="34" class="d-inline-block align-text-top">
-                        <h5 style="position: absolute; bottom: 10px; left: 60px; padding: -25%; color: yellow;">StarWears</h5>
+                        <h3 style="position: absolute; bottom: 10px; left: 60px; padding: -25%; color: yellow;">StarWears</h3>
                     </a>
+                    <div class="collapse navbar-collapse" id="mynavbar" style="position: relative; left: 150px;" >
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <h4 class="nav-link " href="javascript:void(0)" style="color: white;">Link</h4>
+                            </li>
+                            <li class="nav-item">
+                                <h4 class="nav-link" href="javascript:void(0)" style="color: white;">Link</h4>
+                            </li>
+                            <li class="nav-item">
+                                <h4 class="nav-link" href="javascript:void(0)" style="color: white;">Link</h4>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div> 
                 </div>
             </nav>
         </header>
+
+
+
+    
 
         <!-- Barra baja de pagina -->
         <footer class=" text-center text-white " style="background-color: rgba(161, 161, 161, 0.781);" >
